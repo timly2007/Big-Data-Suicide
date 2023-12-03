@@ -1,0 +1,20 @@
+-- Information --
+
+Big Data: Suicide is a informal project that aims to predict the number of suicides annually per 100k population in a group of people based off of a couple of factors:
+age, gender, HDI, and GDP per capita. None of this information should be used in serious scenarios and is purely for learning about Big Data Analytics. In this project,
+multiple prediction algorithms were tested but only the Random Forest Algorithm is on this page as it has the highest accuracy, with a mean percentage error of 13%. 
+
+If you are looking to improve this suicide predictor, here are a couple of things you may want to find:
+        - Other Variables (e.g. climate, population density, access to technology, etc.)
+        - Better Prediction Models
+        - Larger Datasets
+
+Created on the weekend of December 1st, 2023, by Tim Ly.
+
+-- How to Use --
+
+1. Download "Predictor Code.py," "Final Data Set - Big Data Project.csv," and "testing_data.csv" into the same folder.
+2. Make sure you have python installed on your device with the libraries pandas and sklearn.
+3. Open "testing_data.csv" and input values for the four variables age, sex, HDI, and GDP per capita while leaving the first column blank.
+4. Run "Predictor Code.py" for a prediction for the annual suicide rate per 100k population.
+5. If you would like to predict a suicide rate with a subset of the four variables, delete the undesired variable columns on both sheets and perform steps 3-4.
